@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => CounterProviver(),
+      create: (context)=>CounterProviver(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: CounterDemo(),
